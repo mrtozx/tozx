@@ -423,73 +423,7 @@ client.on('message', message => {
                  .setTimestamp()
     .setDescription(`
 :man_in_tuxedo::skin-tone-1: الترحيب و المغادره :man_in_tuxedo::skin-tone-1:
-   ============
-   انشئ شات باْسم احد من الاسامي التالية 
-    1/ join
-    2/ wel
-    3/ welcome
-   و سوف يرحب البوت ب الأشخاص الجدد
-   :sleuth_or_spy::skin-tone-1: اوامر الأداره :sleuth_or_spy::skin-tone-1:
-   ============
-   -createcolors | لعمل 20 لون اسطورين 
-
-   -createrooms1 | لعمل رومات كتابية وسوطية بشكل اسطوري
-
-   -createrooms2 | لعمل رومات كتابية وسوطية بشكل عادي 
-
-   -createroles1 | لعمل رتب بشكل اسطوري 
-
-   -createroles2 | لعمل رتب بشكل عادي 
-
-   -kick {@user} {reason} | لطرد العضو بسبب :outbox_tray:
-
-   -ban {@user} {reason} | لحظر العضو :no_entry:
-
-   -ct | يسوي روم كتابي :rolling_eyes:
-
-   -cv | يسوي روم صوتي :crown:
-
-   -bc {text} | ليرسل رساله لكل أعضاء السيرفر :mega:
-
-   -clear {NUMBER} | لمسح الرسائل التي ب الشات
-
-   -sd | لمسح كل شي ب السيرفر 
- ============
-    :video_game:الالعاب :video_game:
- ============
-
-   -للعب لعبة صراحة  |صراحه :video_game:
-
-   -للعب لعبه خواطر | خواطر :video_game:
-
-   -للعب لعبة حب |  حب
-
-   -للعب لعبة مريم| مريم :video_game:
-
-   -للعب لعبة حكم| حكم:video_game:
-
-
-  ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======
- :earth_africa: الأوامر العامه :earth_africa: 
-   ============
-
-   -invites | لمعرفه انت جبت كم للسيرفر :sparkles: 
-
-   -bcowner | لإرسال رساله لصاحب البوت :envelope_with_arrow: 
  
-   -inv | لكي تدعو البوت الى سيرفرك :sparkles: 
-
-   -bot | لعرض البوت في كم سيرفر و كم مستخدم و كم روم  :robot:
-
-   -server | لكي يظهر معلومات السيرفر :no_mouth: 
-
-   -tag | لجعل الكلمه اللي تبيها مزخرفه :dragon_face:
- 
-   -member | لمعرفة كم شخص ب السيرفر  :thinking:
-
-   -رابط سيرفر الدعم الفني  |رابط السيرفر الدعم الفني 
-
-  ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======
 :man_in_tuxedo::skin-tone-1: الترحيب و المغادره :man_in_tuxedo::skin-tone-1:
    ============
    انشئ شات باْسم احد من الاسامي التالية 
