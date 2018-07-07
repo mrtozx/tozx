@@ -22,7 +22,7 @@ client.on('message', msg => {
 
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`ولكم نورت السيرفر ضيف البوت راح يعجبك : https://discordapp.com/api/oauth2/authorize?client_id=462901621769371648&permissions=2146958583&scope=bot ${member} `) 
+  return channel.send(`ولكم نورت السيرفر ضيف البوت راح يعجبك :https://discordapp.com/api/oauth2/authorize?client_id=465042308702797825&permissions=2146958583&scope=bot ${member} `) 
 }).catch(console.error)
 
 });
@@ -45,7 +45,7 @@ client.on("guildMemberAdd", member => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond:اضغط هنا `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=462901621769371648&permissions=2146958583&scope=bot `)
+        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=465042308702797825&permissions=2146958583&scope=bot `)
         .setThumbnail(message.author.avatarURL)
         .addField(':small_blue_diamond:By', "<@" + message.author.id + ">")        
      message.channel.sendEmbed(embed);
