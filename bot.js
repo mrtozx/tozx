@@ -167,8 +167,8 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if(message.content === '-رابط السيرفر الدعم الفني'){
-        message.channel.send(':small_blue_diamond:  :beginner:  *** اتفضل :https://discord.gg/a54gUV9 *** :beginner:  :small_blue_diamond: ')
+    if(message.content === '- رابط السيرفر الدعم الفني'){
+        message.channel.send(':small_blue_diamond:  :beginner:  ***:small_blue_diamond:  :beginner:   اتفضل :https://discord.gg/a54gUV9  :beginner:  :small_blue_diamond:*** :beginner:  :small_blue_diamond: ')
     }
 });
 
