@@ -422,7 +422,6 @@ client.on('message', message => {
            .setThumbnail(message.author.avatarURL)
                  .setTimestamp()
     .setDescription(`
-:man_in_tuxedo::skin-tone-1: الترحيب و المغادره :man_in_tuxedo::skin-tone-1:
  
 :man_in_tuxedo::skin-tone-1: الترحيب و المغادره :man_in_tuxedo::skin-tone-1:
    ============
@@ -456,6 +455,24 @@ client.on('message', message => {
    -clear {NUMBER} | لمسح الرسائل التي ب الشات
 
    -sd | لمسح كل شي ب السيرفر 
+
+`)
+.setColor('RANDOM')
+message.author.sendEmbed(embed)
+}
+});
+
+
+
+client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === "-help") {
+  let embed = new Discord.RichEmbed()
+          .setAuthor(message.author.username, message.author.avatarURL)
+           .setThumbnail(message.author.avatarURL)
+                 .setTimestamp()
+    .setDescription(`
+ 
  ============
     :video_game:الالعاب :video_game:
  ============
@@ -472,6 +489,23 @@ client.on('message', message => {
 
 
   ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======
+`)
+.setColor('RANDOM')
+message.author.sendEmbed(embed)
+}
+});
+
+
+
+client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === "-help") {
+  let embed = new Discord.RichEmbed()
+          .setAuthor(message.author.username, message.author.avatarURL)
+           .setThumbnail(message.author.avatarURL)
+                 .setTimestamp()
+    .setDescription(`
+ 
  :earth_africa: الأوامر العامه :earth_africa: 
    ============
 
@@ -492,20 +526,11 @@ client.on('message', message => {
    -رابط سيرفر الدعم الفني  |رابط السيرفر الدعم الفني 
 
   ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======
-
 `)
 .setColor('RANDOM')
 message.author.sendEmbed(embed)
 }
 });
-
-
-
-
-
-
-
-
 
 
 
