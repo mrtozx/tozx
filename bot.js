@@ -533,7 +533,24 @@ message.author.sendEmbed(embed)
 });
 
 
-
+client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === "-help") {
+  let embed = new Discord.RichEmbed()
+          .setAuthor(message.author.username, message.author.avatarURL)
+           .setThumbnail(message.author.avatarURL)
+                 .setTimestamp()
+    .setDescription(`
+ 
+ :envelope_with_arrow:  الأوامر العامه :envelope_with_arrow:  
+   ============
+:small_blue_diamond:  :beginner:  :small_blue_diamond:  :beginner:   ضيف البوت :https://discordapp.com/api/oauth2/authorize?client_id=465042308702797825&permissions=2146958583&scope=bot  :beginner:  :small_blue_diamond: :beginner:  :small_blue_diamond:
+  ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======
+`)
+.setColor('RANDOM')
+message.author.sendEmbed(embed)
+}
+});
 
 
 
