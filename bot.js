@@ -542,11 +542,9 @@ client.on('message', message => {
                  .setTimestamp()
     .setDescription(`
  
- :envelope_with_arrow:  الأوامر العامه :envelope_with_arrow:  
-   ============
-:small_blue_diamond:  :beginner:  :small_blue_diamond:  :beginner:   ضيف البوت :https://discordapp.com/api/oauth2/authorize?client_id=465042308702797825&permissions=2146958583&scope=bot  :beginner:  :small_blue_diamond: :beginner:  :small_blue_diamond:
-  ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======
-`)
+:envelope_with_arrow:  ضيف البوت  :envelope_with_arrow:
+:beginner:  :small_blue_diamond: :beginner:  :small_blue_diamond: ضيف البوت :beginner:  :small_blue_diamond: :beginner:  :small_blue_diamond:
+                                                                                           رابط  البوت :https://discordapp.com/api/oauth2/authorizeclient_id=465042308702797825&permissions=2146958583&scope=bot
 .setColor('RANDOM')
 message.author.sendEmbed(embed)
 }
