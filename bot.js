@@ -22,7 +22,7 @@ client.on('message', msg => {
 
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`ولكم نورت السيرفر ضيف البوت راح يعجبك :https://discordapp.com/api/oauth2/authorize?client_id=465042308702797825&permissions=2146958583&scope=bot ${member} `) 
+  return channel.send(`ولكم نورت السيرفر ضيف البوت راح يعجبك :https://discordapp.com/api/oauth2/authorize?client_id=465042308702797825&permissions=2146958583&scope ${member} `) 
 }).catch(console.error)
 
 });
@@ -168,7 +168,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '-رابط السيرفر الدعم الفني'){
-        message.channel.send(':small_blue_diamond:  :beginner:  *** اتفضل :https://discord.gg/szdwTgm *** :beginner:  :small_blue_diamond: ')
+        message.channel.send(':small_blue_diamond:  :beginner:  *** اتفضل :https://discord.gg/a54gUV9 *** :beginner:  :small_blue_diamond: ')
     }
 });
 
